@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import styles from './Products.module.css';
 import ProductCard from '../../components/ProductCard/ProductCard';
 import ProductForm from '../../components/ProductForm/ProductForm';
-import { fetchProducts } from '../../services/productsService';
+import { fetchProducts } from '../../schema/productsService';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { v4 as uuidv4 } from 'uuid';

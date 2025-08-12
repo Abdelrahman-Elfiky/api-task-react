@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import styles from './ProductForm.module.css';
-import { productSchema } from '../../utils/app';
+import { productSchema } from '../../api/app';
 
 export default function ProductForm({ onSave, editingProduct, cancelEdit }) {
   const {
